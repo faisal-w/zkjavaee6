@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window title="Data " width=""  height="" apply="com.wirasoft.app.mymavenzkproject1.IndexController">
+        VALUE : <label id="lblSatu"/>
+        <listbox id="lbData" mold="paging" width="500" height="300"
+            onSelect="">
+                <listhead>
+                        <listheader label="No"/>
+                        <listheader label="Kode Kantor"/>
+                        <listheader label="Nomor PIB"/>
+                        <listheader label="Asal Negara"/>
+                </listhead>
+        </listbox>
+    </window>
+</zk>
